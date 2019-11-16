@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/srijans38/Hackatron-19/BUSy/ve"
+VIRTUAL_ENV="/home/salman/Django/busY/zahanat/ve"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

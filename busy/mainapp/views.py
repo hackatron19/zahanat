@@ -46,4 +46,7 @@ def details(request, bus, bpoint):
         "bpoint" : {"bp": bpoint_selected} 
     }
     return render(request, 'mainapp/details.html', context=context)
+
+def about(request):
+    return(render(request, 'mainapp/about.html'))
     
